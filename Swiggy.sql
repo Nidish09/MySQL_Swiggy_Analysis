@@ -29,7 +29,7 @@ group by b.r_name
 order by cnt desc
 limit 1
 
-#4. restaurants with monthly sales greater than x for 
+#4. Restaurants with monthly sales greater than x for 
 select b.r_name,sum(amount) as revenue from orders a join restaurants b on a.r_id=b.r_id
 where monthname(date) like 'June'
 group by b.r_name
