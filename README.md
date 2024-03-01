@@ -1,6 +1,6 @@
 # MySQL_Swiggy_Analysis
 
-The SQL queries provided analyze data from a Swiggy food delivery service. Here's a summary:
+The SQL queries provided analyze data from a hypothetical Swiggy food delivery service. Here's a summary:
 
 • Identifying Inactive Customers: The query selects users who haven't placed any orders, crucial for targeted marketing or customer re-engagement strategies.
 
